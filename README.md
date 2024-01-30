@@ -1,2 +1,4 @@
-# calculadora
-Calculadora - feita com HTML, CSS e JS (básico)
+# 📌 Calculadora 
+* ### HTML, CSS e JS
+
+![](imagens/calculadora.png)
