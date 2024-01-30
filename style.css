@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background: #4D4D4D;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: max-content;
+    margin: auto;
+    margin-top: 60px;
+}
+.topo{
+    font-size: 4rem;
+    text-align: center;
+    color: #EB922A;
+    margin-top: 35px;
+}
+.tela{
+    background: #373737;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 3rem;
+    width: 500px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 35px;
+}
+
+.teclas{
+    background:#2C2C2C;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 8px 25px 8px;
+    gap: 15px;
+    flex-wrap: wrap;
+    width:500px;
+}
+
+.botao{
+    background: #EB922A;
+    color: #2C2C2C;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 3.5px solid #AA6E26;
+    font-size: 2rem;
+    width: 95px;
+    padding: 2px;
+    cursor:pointer;
+}
+
+.botao:active{
+    border: none;
+}
+
+.botao-reset,
+.botao-igual.botao,
+.botao-del{
+    color: #fff;
+}
+.botao-reset,
+.botao-igual{
+    width: 205px;
+}
+
+.botao-reset,
+.botao-del{
+    background: #696767;
+    border-color: #585656;
+}
+
+.botao-igual{
+    background: #E8592B;
+    border-color: #AF3333;
+}
+
+
