@@ -3,4 +3,4 @@
 > ### Linguagens - HTML, CSS e JS
 * ### Simples e programada a partir dos meus primeiros passos com JavaScript.
 * ### Ainda pode estar aberta a possíveis bugs.
-![](src/calc-img.png)
+![](src/calc-img.PNG)
