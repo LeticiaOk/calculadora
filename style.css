@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #4D4D4D;
+    background: #767b98
     
 }
 
@@ -18,16 +18,12 @@ body{
     gap: 30px;
     width: max-content;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 130px;
 }
-.topo{
-    font-size: 4rem;
-    text-align: center;
-    color: #EB922A;
-    margin-top: 35px;
-}
+
+
 .tela{
-    background: #373737;
+    background:#25283d;
     border-radius: 10px;
     color: #fff;
     font-size: 3rem;
@@ -40,7 +36,7 @@ body{
 }
 
 .teclas{
-    background:#2C2C2C;
+    background: #212436e3;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -51,11 +47,11 @@ body{
 }
 
 .botao{
-    background: #EB922A;
-    color: #2C2C2C;
+    background: #3a3f5d;
+    color: #fff;
     border-radius: 10px;
     border: none;
-    border-bottom: 3.5px solid #AA6E26;
+    border-bottom: 4px solid #353855;
     font-size: 2rem;
     width: 95px;
     padding: 2px;
@@ -66,25 +62,25 @@ body{
     border: none;
 }
 
-.botao-reset,
-.botao-igual.botao,
-.botao-del{
-    color: #fff;
+.botao-adic,
+.botao-mult,
+.botao-div,
+.botao-sub,
+.botao-reset{
+    color: #ff3563;
+    background-color: #4e546e;
+    border-color: #42465c;
 }
+
 .botao-reset,
 .botao-igual{
     width: 205px;
-}
-
-.botao-reset,
-.botao-del{
-    background: #696767;
-    border-color: #585656;
+  
 }
 
 .botao-igual{
-    background: #E8592B;
-    border-color: #AF3333;
+    background: #ff3563;
+    border-color: #da2d55;
 }
 
 
