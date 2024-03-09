@@ -19,16 +19,13 @@ function clicar(caractere){
             escrever.innerHTML += caractere;  
             numero += caractere;
         }
-
-   
     }
     
     if ('x-+/'.includes(caractere)){
         if (i == 0){ 
             operador = caractere;   
         }
-        operacao = 'on'; 
-        
+        operacao = 'on';         
     }else{
         operacao = 'off'; 
     }
@@ -46,8 +43,7 @@ function clicar(caractere){
         }
 
     // SUBTRAÇÃO
-    if (operador == '-' && (operacao == 'on' || caractere == '=')){
-        
+    if (operador == '-' && (operacao == 'on' || caractere == '=')){        
         if (i == 0){ 
             conta = Number(numero); 
             i++;
@@ -80,8 +76,7 @@ function clicar(caractere){
         }else{
             if (numero != ''){
                 conta *= Number(numero);
-            }
-             
+            }       
         }
         numero = ''; 
         escrever.innerHTML = conta; 
