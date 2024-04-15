@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #767b98
+    background-color: rgb(35, 35, 35);
     
 }
 
@@ -18,12 +18,17 @@ body{
     gap: 30px;
     width: max-content;
     margin: auto;
-    margin-top: 130px;
+    margin-top: 60px;
 }
-
-
+.topo{
+    font-size: 4rem;
+    text-align: center;
+    color: #eb4561;;
+    margin-top: 35px;
+   
+}
 .tela{
-    background:#25283d;
+    background-color: rgb(27, 27, 27);
     border-radius: 10px;
     color: #fff;
     font-size: 3rem;
@@ -36,7 +41,7 @@ body{
 }
 
 .teclas{
-    background: #212436e3;
+    background-color: rgb(23, 23, 23);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -47,40 +52,40 @@ body{
 }
 
 .botao{
-    background: #3a3f5d;
-    color: #fff;
+    background: #eb4561;
+    color: #2C2C2C;
     border-radius: 10px;
     border: none;
-    border-bottom: 4px solid #353855;
+    border-bottom: 4px solid #772230;
     font-size: 2rem;
     width: 95px;
     padding: 2px;
     cursor:pointer;
+    transition: 0.1s;
 }
 
 .botao:active{
     border: none;
 }
 
-.botao-adic,
-.botao-mult,
-.botao-div,
-.botao-sub,
-.botao-reset{
-    color: #ff3563;
-    background-color: #4e546e;
-    border-color: #42465c;
-}
+.botao-reset,
 
+.botao-del{
+    color: #fff;
+}
 .botao-reset,
 .botao-igual{
     width: 205px;
-  
+}
+
+.botao-reset,
+.botao-del{
+    background: rgb(35, 35, 35);;
+    border-color: rgb(45, 45, 45);
 }
 
 .botao-igual{
-    background: #ff3563;
-    border-color: #da2d55;
+    background: rgb(35, 35, 35);
+    border-color: rgb(40, 40, 40);
+    color: #eb4561;
 }
-
-
