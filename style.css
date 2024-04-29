@@ -89,3 +89,48 @@ body{
     border-color: rgb(40, 40, 40);
     color: #eb4561;
 }
+
+@media(max-width: 480px) {
+    .container {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .topo {
+        padding: 20px;
+    }
+
+    .teclas {
+        width: 100%;
+        padding: 25px 5px;
+    }
+
+    .botao {
+        width: 75px;
+    }
+
+    .botao-del {
+        font-size: 1.5rem;
+    }
+
+    .botao-reset,
+    .botao-igual {
+        width: 40%;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .teclas {
+        width: 100%;
+        padding: 25px 5px;
+    }
+    .botao {
+        width: 60px;
+    }
+
+    .botao-reset,
+    .botao-igual {
+        width: 45%;
+    }
+}
